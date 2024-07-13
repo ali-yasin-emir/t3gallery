@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { db } from "~/server/db";
 
-export const dynamic = "auto";
+export const dynamic = "force-dynamic";
 
 const mockUrls = [
   "https://utfs.io/f/182dfc24-86b6-4a47-b19a-9bb27cdb950f-mm3pnd.jpeg",
