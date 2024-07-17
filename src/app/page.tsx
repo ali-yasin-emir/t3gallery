@@ -6,7 +6,7 @@ export const dynamic = "force-dynamic";
 
 export default async function HomePage() {
   return (
-    <main className="bg-purple-300 h-screen">
+    <main className="bg-purple-300 text-black">
       <SignedOut>
         <div className="flex items-center justify-center bg-slate-600 text-white">
           <h1 className="text-2xl font-thin tracking-wider">
@@ -17,7 +17,6 @@ export default async function HomePage() {
       <SignedIn>
         <Images />
       </SignedIn>
-      <h1> Hello (gallery in progress)</h1>
     </main>
   );
 }
